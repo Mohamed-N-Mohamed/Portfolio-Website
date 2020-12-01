@@ -108,6 +108,10 @@ nav li {
   font-size: 1.2rem;
   text-decoration: none;
 }
+.nav a:hover{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: .25rem;
+}
 
 
 /*social media icons*/
@@ -124,6 +128,13 @@ nav li {
 
 .social-media img {
   height: 2.5rem;
+}
+.social-media a {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.social-media a:hover{
+ opacity: 1;
 }
 
 /*introdcution section*/
