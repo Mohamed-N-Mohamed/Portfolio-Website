@@ -69,6 +69,11 @@ ul {
   line-height: 1.2;
   margin-bottom: 1rem;
 }
+/* custome hr*/
+.hr{
+  width: 10%;
+  border-bottom: 1px solid #ccc;
+}
 
 .large {
   font-size: 3rem;
@@ -208,6 +213,10 @@ nav li {
 .my-projects {
   background-color: #fafafa;
 }
+.project-title {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
 
 /*custome cards*/
 .cards {
@@ -225,6 +234,7 @@ nav li {
   /* width: 400px; */
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   background: #fff;
+  transition: 0.3s;
 }
 .card-content {
   font-size: 1rem;
@@ -244,15 +254,15 @@ nav li {
   padding: 15px;
   display: flex;
   justify-content: space-between;
-  font-size: 1rem;
   align-items: center;
-  /* border-bottom: 2px solid #ccc; */
 }
 
 .card-link {
-  /* color: rgb(83, 109, 254); */
+  display: block;
+  padding: 10px 5px;
   color: #3c84f0;
   text-decoration: none;
+  font-size: 0.9rem;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -260,6 +270,38 @@ nav li {
   font-size: 1.2rem;
 }
 
-.card-link:hover {
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
 }
 
+.card-link:hover {
+  background: #ccc;
+}
+/*contact section*/
+.contact-me {
+  background-color: #dcdcdc;
+  color: #000;
+  font-size: 1rem;
+}
+.contact-flex {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.email {
+  font-weight: bold;
+  cursor: pointer;
+}
+.email a {
+  color: #000;
+}
+
+/* footer */
+.main-footer {
+  background-color: #dcdcdc;
+  color: #000;
+  text-align: center;
+}
