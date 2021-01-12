@@ -70,7 +70,7 @@ ul {
   margin-bottom: 1rem;
 }
 /* custome hr*/
-.hr{
+.hr {
   width: 10%;
   border-bottom: 1px solid #ccc;
 }
@@ -86,10 +86,13 @@ ul {
   margin-bottom: 1rem;
   border-bottom: 1px solid #37c8c8;
 }
+.md {
+  font-size: 1.1rem;
+}
 .small-text {
   font-size: 1.2rem;
   line-height: 1;
-  margin-bottom: 1;
+  margin-bottom: 1rem;
 }
 
 .lead {
@@ -223,8 +226,7 @@ nav li {
   margin: 0 auto;
   max-width: 1000px;
   display: grid;
-  /* grid-template-columns: repeat(auto-fill, minmax(225px, 1fr)); */
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
   grid-auto-rows: auto;
   gap: 20px;
   padding-top: 30px;
@@ -304,4 +306,81 @@ nav li {
   background-color: #dcdcdc;
   color: #000;
   text-align: center;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 600px) {
+  .hero-background-image {
+    height: 65vh;
+  }
+  .nav {
+    width: 26px;
+    height: 60px;
+    padding: 0.55rem 1rem;
+  }
+
+  .nav a {
+    font-size: 1.1rem;
+  }
+
+  .social-media {
+    height: 60px;
+  }
+
+  .social-media img {
+    height: 1.9rem;
+  }
+  .social-media a {
+    opacity: 1;
+    transition: none;
+  }
+
+  .intro {
+    margin-top: 0;
+  }
+  .intro h2 {
+    font-size: 1.75rem;
+  }
+  .intro h3 {
+    font-size: 1.5rem;
+  }
+
+  .large {
+    font-size: 2rem;
+   
+  }
+
+  .sm {
+    font-size: 1.5rem;
+  }
+
+  .lead {
+    font-size: 1.2rem;
+  }
+  .technologies {
+    display: none;
+  }
+
+  /*grid section*/
+  .about-me {
+    height: 700px;
+  }
+  .lead {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .small-text {
+    margin-bottom: 0;
+  }
+  .technologies img {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .technologies {
+    display: none;
+  }
 }
