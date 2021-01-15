@@ -391,6 +391,11 @@ nav li {
     font-size: 1rem;
   }
 
+  .card:hover{
+    transform: none;
+    box-shadow: none;
+  }
+
 
 }
 
