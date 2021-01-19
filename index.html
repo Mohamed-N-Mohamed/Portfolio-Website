@@ -8,6 +8,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/ce18a140c1.js" crossorigin="anonymous"></script>
+  
+  <script
+    src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
   <title>Portfolio</title>
 </head>
 
@@ -15,13 +18,13 @@
   <!----Main content-->
   <main>
     <div class="hero-background-image">
-
       <!--Nav-->
       <nav class="nav">
         <ul>
-          <li><a href="#about-me">About</a></li>
-          <li><a href="#my-projects">Projects</a></li>
-          <li><a href="#contact-me">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Projects</a></li>
+          <li><a href="#contact ">Contact</a></li>
+          <!-- <li><a href="#contact">Contact</a></li> -->
         </ul>
 
       </nav>
@@ -60,227 +63,231 @@
 
 
     <!---About me section-->
-    <div class="about-me p-3" id="about-me">
-      <div class="container">
-        <h2 class="sm text-center">About</h2>
-        <div class="c-card-top">
-          <p class="lead">My name is Mohamed, and I'm a Web Developer living in London. I'm a passionate and amibition
-            developer, who loves to learn new technologies. I excel in Front-end web developemt such HTML, CSS and
-            Javascript. Also, I have Back-end
-            experience with NodeJS, Express and MongoDB. My next challenge is to learn a Javascript framwork such as
-            React. Outside of web development, I enjoy playing basketball, watching movies/anime and playing video
-            games.
-          </p>
-        </div>
+    <div id="about">
+      <div class="about-me p-3" id="about-me">
+        <div class="container">
+          <h2 class="sm text-center">About</h2>
+          <div class="c-card-top">
+            <p class="lead">My name is Mohamed, and I'm a Web Developer living in London. I'm a passionate and amibition
+              developer, who loves to learn new technologies. I excel in Front-end web developemt such HTML, CSS and
+              Javascript. Also, I have Back-end
+              experience with NodeJS, Express and MongoDB. My next challenge is to learn a Javascript framwork such as
+              React. Outside of web development, I enjoy playing basketball, watching movies/anime and playing video
+              games.
+            </p>
+          </div>
 
-        <div class="technologies py-2">
-          <h4 class="small-text">Technologies</h4>
-          <div class="tech-flex p-2">
-            <div>
-              <a href="#">
-                <img src="./assets/images/html5.svg" alt="HTML5">
-              </a>
+          <div class="technologies py-2">
+            <h4 class="small-text">Technologies</h4>
+            <div class="tech-flex p-2">
+              <div>
+                <a href="#">
+                  <img src="./assets/images/html5.svg" alt="HTML5">
+                </a>
+              </div>
+
+              <div>
+                <a href="#">
+                  <img src="./assets/images/css3.svg" alt="">
+                </a>
+              </div>
+
+              <div>
+                <a href="#">
+                  <img src="./assets/images/js-logo.png" alt="">
+                </a>
+              </div>
+
+              <div>
+                <a href="#">
+                  <img src="./assets/images/sass.svg" alt="">
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img src="./assets/images/nodejs.svg" alt="">
+                </a>
+              </div>
+
+
+              <div>
+                <a href="#">
+                  <img src="./assets/images/MONGO-DB-logo-300x470--x.png" alt="">
+                </a>
+              </div>
+
+
             </div>
-
-            <div>
-              <a href="#">
-                <img src="./assets/images/css3.svg" alt="">
-              </a>
-            </div>
-
-            <div>
-              <a href="#">
-                <img src="./assets/images/js-logo.png" alt="">
-              </a>
-            </div>
-
-            <div>
-              <a href="#">
-                <img src="./assets/images/sass.svg" alt="">
-              </a>
-            </div>
-            <div>
-              <a href="#">
-                <img src="./assets/images/nodejs.svg" alt="">
-              </a>
-            </div>
-
-
-            <div>
-              <a href="#">
-                <img src="./assets/images/MONGO-DB-logo-300x470--x.png" alt="">
-              </a>
-            </div>
-
 
           </div>
 
         </div>
-
       </div>
     </div>
-
 
 
     <!--projects-->
-    <div class="my-projects p-2">
-      <div class="container">
-        <h2 class="project-title">Projects</h2>
-        <div class="cards">
-          <div class="card">
-            <!-- <img src="" alt="" class="card-image"> -->
-            <img class="card__image" src="https://fakeimg.pl/400x300/009578/fff/" alt="">
-            <h4 class="card-title py-1">Project 1</h4>
+    <section id="work">
+      <div class="my-projects p-2">
+        <div class="container">
+          <h2 class="project-title">Projects</h2>
+          <div class="cards">
+            <div class="card">
+              <!-- <img src="" alt="" class="card-image"> -->
+              <img class="card__image" src="https://fakeimg.pl/400x300/009578/fff/" alt="">
+              <h4 class="card-title py-1">Project 1</h4>
 
-            <div class="card-content">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, suscipit quaerat! Molestias fuga saepe
-                velit ex magni fugit quaerat doloribus distinctio, tempora incidunt, nesciunt fugiat, excepturi eos
-                accusantium laborum doloremque?</p>
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, suscipit quaerat! Molestias fuga saepe
+                  velit ex magni fugit quaerat doloribus distinctio, tempora incidunt, nesciunt fugiat, excepturi eos
+                  accusantium laborum doloremque?</p>
+              </div>
+
+
+
+
+              <div class="card-info">
+                <div>
+                  <a href="#" class="card-link">Live site</a>
+                </div>
+
+                <div>
+                  <a href="#" class="card-link">View Repo</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card">
+              <!-- <img src="" alt="" class="card-image"> -->
+              <img class="card__image" src="https://fakeimg.pl/400x300/009578/fff/" alt="">
+              <h4 class="card-title py-1">Project 2</h4>
+
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, suscipit quaerat! Molestias fuga saepe
+                  velit ex magni fugit quaerat doloribus distinctio, tempora incidunt, nesciunt fugiat, excepturi eos
+                  accusantium laborum doloremque?</p>
+              </div>
+
+
+              <div class="card-info">
+                <div>
+                  <a href="#" class="card-link">Live site</a>
+                </div>
+
+                <div>
+                  <a href="#" class="card-link">View Repo</a>
+                </div>
+              </div>
             </div>
 
 
 
+            <div class="card">
+              <!-- <img src="" alt="" class="card-image"> -->
+              <img class="card__image" src="https://fakeimg.pl/400x300/009578/fff/" alt="">
+              <h4 class="card-title py-1">Project 3</h4>
 
-            <div class="card-info">
-              <div>
-                <a href="#" class="card-link">Live site</a>
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, suscipit quaerat! Molestias fuga saepe
+                  velit ex magni fugit quaerat doloribus distinctio, tempora incidunt, nesciunt fugiat, excepturi eos
+                  accusantium laborum doloremque?</p>
               </div>
 
-              <div>
-                <a href="#" class="card-link">View Repo</a>
+
+              <div class="card-info">
+                <div>
+                  <a href="#" class="card-link">Live site</a>
+                </div>
+
+                <div>
+                  <a href="#" class="card-link">View Repo</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card">
+              <!-- <img src="" alt="" class="card-image"> -->
+              <img class="card__image" src="https://fakeimg.pl/400x300/009578/fff/" alt="">
+              <h4 class="card-title py-1">Project 4</h4>
+
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, suscipit quaerat! Molestias fuga saepe
+                  velit ex magni fugit quaerat doloribus distinctio, tempora incidunt, nesciunt fugiat, excepturi eos
+                  accusantium laborum doloremque?</p>
+              </div>
+
+
+              <div class="card-info">
+                <div>
+                  <a href="#" class="card-link">Live site</a>
+                </div>
+
+                <div>
+                  <a href="#" class="card-link">View Repo</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card">
+              <!-- <img src="" alt="" class="card-image"> -->
+              <img class="card__image" src="https://fakeimg.pl/400x300/009578/fff/" alt="">
+              <h4 class="card-title py-1">Project 5</h4>
+
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, suscipit quaerat! Molestias fuga saepe
+                  velit ex magni fugit quaerat doloribus distinctio, tempora incidunt, nesciunt fugiat, excepturi eos
+                  accusantium laborum doloremque?</p>
+              </div>
+
+
+              <div class="card-info">
+                <div>
+                  <a href="#" class="card-link">Live site</a>
+                </div>
+
+                <div>
+                  <a href="#" class="card-link">View Repo</a>
+                </div>
               </div>
             </div>
           </div>
 
 
-          <div class="card">
-            <!-- <img src="" alt="" class="card-image"> -->
-            <img class="card__image" src="https://fakeimg.pl/400x300/009578/fff/" alt="">
-            <h4 class="card-title py-1">Project 1</h4>
-
-            <div class="card-content">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, suscipit quaerat! Molestias fuga saepe
-                velit ex magni fugit quaerat doloribus distinctio, tempora incidunt, nesciunt fugiat, excepturi eos
-                accusantium laborum doloremque?</p>
-            </div>
-
-
-            <div class="card-info">
-              <div>
-                <a href="#" class="card-link">Live site</a>
-              </div>
-
-              <div>
-                <a href="#" class="card-link">View Repo</a>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="card">
-            <!-- <img src="" alt="" class="card-image"> -->
-            <img class="card__image" src="https://fakeimg.pl/400x300/009578/fff/" alt="">
-            <h4 class="card-title py-1">React Chat App</h4>
-
-            <div class="card-content">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, suscipit quaerat! Molestias fuga saepe
-                velit ex magni fugit quaerat doloribus distinctio, tempora incidunt, nesciunt fugiat, excepturi eos
-                accusantium laborum doloremque?</p>
-            </div>
-
-
-            <div class="card-info">
-              <div>
-                <a href="#" class="card-link">Live site</a>
-              </div>
-
-              <div>
-                <a href="#" class="card-link">View Repo</a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="card">
-            <!-- <img src="" alt="" class="card-image"> -->
-            <img class="card__image" src="https://fakeimg.pl/400x300/009578/fff/" alt="">
-            <h4 class="card-title py-1">Project 1</h4>
-
-            <div class="card-content">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, suscipit quaerat! Molestias fuga saepe
-                velit ex magni fugit quaerat doloribus distinctio, tempora incidunt, nesciunt fugiat, excepturi eos
-                accusantium laborum doloremque?</p>
-            </div>
-
-
-            <div class="card-info">
-              <div>
-                <a href="#" class="card-link">Live site</a>
-              </div>
-
-              <div>
-                <a href="#" class="card-link">View Repo</a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="card">
-            <!-- <img src="" alt="" class="card-image"> -->
-            <img class="card__image" src="https://fakeimg.pl/400x300/009578/fff/" alt="">
-            <h4 class="card-title py-1">Project 1</h4>
-
-            <div class="card-content">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, suscipit quaerat! Molestias fuga saepe
-                velit ex magni fugit quaerat doloribus distinctio, tempora incidunt, nesciunt fugiat, excepturi eos
-                accusantium laborum doloremque?</p>
-            </div>
-
-
-            <div class="card-info">
-              <div>
-                <a href="#" class="card-link">Live site</a>
-              </div>
-
-              <div>
-                <a href="#" class="card-link">View Repo</a>
-              </div>
-            </div>
-          </div>
         </div>
 
-
       </div>
-
-    </div>
-
+    </section>
 
 
 
-    <!----Contact Section-->
-    <div class="contact-me p-1">
-      <div class="container">
-        <div class="contact-flex">
-          <div>
-            <i class="fas fa-envelope fa-2x"></i>
+
+    <!----Contact-->
+    <section id="contact">
+      <div class="contact-me p-1">
+        <div class="container">
+          <div class="contact-flex">
+            <div>
+              <i class="fas fa-envelope fa-2x"></i>
+            </div>
+            <div>
+              <h3 class="md">Contact Me:</h3>
+            </div>
+            <div>
+              <p> <span class="email"><a
+                    href="mailto:mohamed-n-mohamed@outlook.com">mohamed-n-mohamed@outlook.com</a></span></p>
+
+
+            </div>
           </div>
-          <div>
-            <h3 class="md">Contact Me:</h3>
-          </div>
-          <div>
-            <p> <span class="email"><a
-                  href="mailto:mohamed-n-mohamed@outlook.com">mohamed-n-mohamed@outlook.com</a></span></p>
 
 
-          </div>
         </div>
 
-
       </div>
-
-    </div>
-
+    </section>
 
 
 
@@ -299,7 +306,7 @@
   </main>
 
 
-
+  <script src="js/index.js"></script>
 </body>
 
 </html>

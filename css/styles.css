@@ -20,6 +20,8 @@ body {
   line-height: 1.6;
   background-color: #fff;
   color: #333;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 h2 {
   font-size: 2.1rem;
@@ -370,7 +372,7 @@ nav li {
   }
 
   .about-me {
-    height: 700px;
+    height: 500px;
   }
   .lead {
     font-size: 1.1rem;
@@ -382,21 +384,18 @@ nav li {
   .contact-flex i {
     display: none;
   }
- 
 
-  .email{
-    font-size: 0.90rem;
+  .email {
+    font-size: 0.9rem;
   }
   .md {
     font-size: 1rem;
   }
 
-  .card:hover{
+  .card:hover {
     transform: none;
     box-shadow: none;
   }
-
-
 }
 
 @media only screen and (min-width: 800px) {
