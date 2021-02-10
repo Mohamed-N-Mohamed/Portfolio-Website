@@ -87,6 +87,7 @@ ul {
 }
 .md {
   font-size: 1.1rem;
+  font-weight: normal;
 }
 .small-text {
   font-size: 1.2rem;
@@ -225,7 +226,6 @@ nav li {
 }
 .project-title {
   text-align: center;
-  border-bottom: 1px solid #ccc;
 }
 
 /*custome cards*/
@@ -276,16 +276,12 @@ nav li {
   text-transform: uppercase;
 }
 .card-title {
-  font-size: 1.2rem;
+  font-size: 1.125rem;
+  font-weight: normal;
 }
 
 .card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-}
-
-.card:last-child:hover {
-  transform: none;
+  transform: translate(0, -5px);
 }
 
 .card-link:hover {
@@ -368,7 +364,7 @@ nav li {
   .sm {
     font-size: 1.5rem;
   }
-  .project-title{
+  .project-title {
     font-size: 1.5rem;
   }
 
